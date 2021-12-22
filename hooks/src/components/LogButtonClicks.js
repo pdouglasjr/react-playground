@@ -11,7 +11,6 @@ export default function LogButtonClicks() {
   const handleClick = () => {
     countRef.current++;   // updated value DOES NOT trigger re-rendering of component
     setCount(countRef.current);   // updated value DOES trigger re-rendering of component
-    console.log(`Clicked ${countRef.current} times`);
 
     const intervalID = setInterval((a, b, c) => console.log('Test'), 500, )
   }
