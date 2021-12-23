@@ -30,5 +30,9 @@ button.start {
 }
 button.stop {
   background: red;
+  margin: 0 5px;
+}
+button.reset {
+  background: #333;
   margin-left: 5px;
 }
