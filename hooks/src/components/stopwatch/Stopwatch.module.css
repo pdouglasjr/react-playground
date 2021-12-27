@@ -1,0 +1,30 @@
+.stopwatch {
+  margin-top: 300px;
+}
+.stopwatch .timer {
+  font-size: 3em;
+}
+.stopwatch .btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.stopwatch .btn-group button {
+  margin: 0 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  font-weight: 1000;
+  text-transform: uppercase;
+}
+.stopwatch .btn-group button:first-of-type {
+  background: green;
+}
+.stopwatch .btn-group button:nth-of-type(2) {
+  background: red;
+}
+.stopwatch .btn-group button:last-of-type {
+  background: black;
+}
